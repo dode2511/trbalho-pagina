@@ -25,7 +25,7 @@ const carregaLoja= async () => {
     resp +=
       `
     <div class="col-6 col-sm-4 col-md-3">
-      <div class="card">
+      <div class="card mt-3">
       <img src="${roupa.foto}" class="card-img-top" alt="roupa">
         <div class="card-body">
           <h5 class="card-title">${roupa.id} - ${roupa.nome}</h5>
